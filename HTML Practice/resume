@@ -1,0 +1,5 @@
+a head section content info nao mostrada, como lang, titulo e o body mostra os textos etc
+as listas costumam ser usadas também para usar como botões (login, etc) e redes socias. Também em teoria são usadas para agrupar conteúdo do mesmo tipo como lista de redes sociais ou botões de rodapé
+para colocar links em texto usa-se anchor, <a></a>, indo dentro do primeuto a, um href com o link e entre as tags a o nome do texto, por exemplo, para por um instagram a ir para a sua pagina ao clicar fasso <a href="https://instagram.com">Instagram</a>
+tudo o que submete informação no website é um forms. temos inputs, que é onde se escreve, dropwowns, que é escolher tópicos de uma lista e text area, nada mais nada menos que um síto onde se pode escrever muito texto. e claro, o botao que submete o form. isto tudo está dentro de um form element
+na form tag, o atrubuto action é onde vai ser guardado no servidor para ser processado. o atributo método determina o mentodo http ussado para "controlar" os dados do form, metodos inluen, get, delete, put e post

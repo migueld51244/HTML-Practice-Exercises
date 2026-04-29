@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binary Inputs</title>
+</head>
+<body>
+
+    <h1>PC Customizer</h1>
+
+    <p>Build your PC</p>
+    <form action="/data/requests" method="post">
+        <input type="checkbox" id="is-gpu-required" name="gpu">
+        <label for="is-gpu-required">Do you want a GPU</label>
+        <input type="checkbox" id="is-it-for-work" value="">
+        <label for="is-it-for-work">Is it for work?</label>
+
+        <br>
+
+        <input type="radio" id="less1k" name="power" value="less than 1000W">
+        <label for="less1k">Less than 1000W</label>
+
+        <input type="radio" id="whatever" name="power" value="whatever">
+        <label for="whatever">It's ok, whatever it takes</label>
+
+        <input type="radio" id="less" name="power" value="less than 2000W">
+        <label for="less2k">Less than 2000W</label>
+        
+        <button type="submit">Order</button>
+    </form>
+</body>
+</html>
